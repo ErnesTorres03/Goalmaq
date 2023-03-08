@@ -77,13 +77,17 @@ h6{
    height: 200px;
 }
 .personal-navbar{
-  background-color: #252525;
+  background-color: #eeeeee;
 }
 .personal-navbar a{
-  color: #ffffff;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 450;
+  font-size: 16px;
+  margin: 0;
 }
 .personal-navbar a:hover{
-  color: #da0505;
+  color: #831b2e;
 }
 .personal-navbar a:active{
   color: #da0505;
@@ -96,10 +100,18 @@ h6{
 }
 .content-header-lg{
     background: #141414;
+    margin-top: 90px;
+    position: relative;
     width: 100%;
-    height: 587px;
-    margin-top: 68px;
-    padding-top: 40px;
+    min-height: 100vh;
+}
+video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .content-span-black{
   background: #141414;
