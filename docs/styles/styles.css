@@ -1,3 +1,23 @@
+.container-pys{
+  padding-top: 20px;
+  width: 100%;
+  min-height: 100%;
+}
+.img-imp{
+  width: 120px;
+  height: 95px;
+}
+.img-pys{
+  width: 480px;
+  height: 450px;
+}
+.container-pys h1{
+  color: #0a0a0a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.2;
+}
 .image-icon{
 width: 30px;
 height: 30px;
@@ -22,7 +42,11 @@ height: 30px;
   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 14.1px),#000 0);
   animation: spinner-c7wet2 1.2s infinite linear;
 }
-
+.layout-c-capac{
+  padding-top: 5%;
+  padding-left: 12%;
+  padding-right: 12%;
+}
 @keyframes spinner-c7wet2 {
   100% {
      transform: rotate(1turn);
@@ -98,6 +122,17 @@ h6{
 .personal-dropdown a{
   color: #141414;
 }
+.navbar-nav a{
+  border-right: 2px solid #831b2e;
+    float: left;
+    list-style: none outside none;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+}
+.navbar-nav a:last-child{
+  border-right: none;
+}
 .content-header-lg{
     background: #141414;
     margin-top: 89px;
@@ -119,13 +154,11 @@ video{
   left: 0;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
   background: #38B6FF;
-  opacity: 35%;
+  opacity: 55%;
 }
 .promo{
-  color: #ffffff;
-  position: relative;
+  position: absolute;
   left: 200px;
   top: 110px;
   z-index: 2;
@@ -134,18 +167,16 @@ video{
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
   font-weight: 700;
-=======
-  background: #095683;
-  opacity: 35%;
->>>>>>> d1490516d20bd281511537d95b8d887922df0ed4
+  color: #ffffff;
+  opacity: 75%;
 }
 .pys{
   position: relative;
   min-height: 100vh;
   width: 100%;
   background: #faf9f9;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 4%;
+  padding-bottom: 6%;
 }
 .pys h2{
   color: #0a0a0a;
@@ -153,6 +184,12 @@ video{
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 0.2;
+}
+.impact{
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
 }
 .content-span-black{
   background: #141414;
@@ -251,24 +288,26 @@ video{
 .sorteo-card{
   width: 280px;
   box-shadow: -5px 5px 8px 4px rgb(46, 46, 46);
-  height: 425px;
+  height: 550px;
   margin-top: 60px;
   margin-bottom: 60px;
   border-radius: 10px;
 }
 .card-sorteo-head{
   width: 100%;
-  height: 220px;
+  min-height:  45%;
   border-radius: 10px 10px 0 0;
   background: #fafafa;
 }
 .card-sorteo-body{
   display: flex;
+  position: relative;
+  min-height: 55%;
   flex-direction: column;
   align-items: center;
   width: 100%;
   height: 205px;
-  background: #3f3e3d;
+  background: #727272;
   border-radius: 0 0 10px 10px;
 }
 .card-sorteo-image{
@@ -280,31 +319,30 @@ video{
 }
 .card-desc-lugar{
   color: #fafafa;
-  position: static;
+  position: relative;
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
+  font-size: 25px;
   font-weight: 800;
   letter-spacing: 0.5px;
 }
 .card-desc{
   color: #fafafa;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 800;
-  letter-spacing: 0.3px;
-  margin-top: 70px;
+}
+.card-desc p {
+  padding-top: 0%;
+  margin-top: 0%;
 }
 .card-container-button{
   position: absolute;
   display: flex;
   align-items: center;
-  margin-top: 145px;
-  width: 200px;
-  height: 100px;
+  margin-top: 280px;
 }
 .card-btn{
   background-color: #831b2e;
@@ -342,10 +380,11 @@ video{
   font-weight: 400;
 }
 .c-capac{
+  padding-top: 1%;
   position: relative;
   width: 100%;
-  min-height: 500px;
-  background: #3f3e3d;
+  min-height: 600px;
+  background: #727272;
 }
 .c-capac h2{
   color: #ffffff;
