@@ -437,6 +437,11 @@ flex-direction: row;
    }
   @media(max-width: 993px){
 
+    .pys .col-info{
+      width: 100%;
+      min-height: 30%;
+      margin-top: 4%;
+    }
     
 
     .video-c-capac{
