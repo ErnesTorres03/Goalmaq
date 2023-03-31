@@ -22,11 +22,7 @@
 width: 30px;
 height: 30px;
 }
-.layout-c-capac{
-  padding-top: 5%;
-  padding-left: 12%;
-  padding-right: 12%;
-}
+
 li{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -345,7 +341,6 @@ video{
   font-weight: 400;
 }
 .c-capac{
-  padding-top: 1%;
   position: relative;
   width: 100%;
   min-height: 600px;
@@ -443,7 +438,7 @@ flex-direction: row;
     
 
     .video-c-capac{
-      width: 300px;
+      width: 100%;
       height: 250px;
     }
     .p-panel{
