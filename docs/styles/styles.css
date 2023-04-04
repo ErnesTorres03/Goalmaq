@@ -430,6 +430,11 @@ flex-direction: row;
   .sidebar li a{
     color: #000000;
    }
+   .layout-c-capac .row{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 3%;
+   }
   @media(max-width: 993px){
 
     .pys .col-info{
