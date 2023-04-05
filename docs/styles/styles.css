@@ -147,12 +147,13 @@ video{
   left: 0;
   width: 100%;
   height: 100%;
-  background: #38B6FF;
+  background: #727272;
+  /*background: #38B6FF;*/
   opacity: 55%;
 }
 .promo{
   position: absolute;
-  left: 5%;
+  left: 8%;
   top: 25%;
   z-index: 2;
 }
