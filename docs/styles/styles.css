@@ -26,8 +26,8 @@
   position: static;
 }
 .img-imp{
-  width: 120px;
-  height: 95px;
+  width: 60px;
+  height: 70px;
 }
 .img-pys{
   width: 340px;
@@ -515,5 +515,8 @@ flex-direction: row;
     .accesorios-opcionales{
       display: flex;
       flex-direction: column;
+    }
+    .img-acc{
+      width: 100px;
     }
   }
