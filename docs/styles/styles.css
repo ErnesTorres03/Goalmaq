@@ -30,7 +30,7 @@
   height: 95px;
 }
 .img-pys{
-  width: 380px;
+  width: 340px;
   height: 350px;
 }
 .container-pys h1{
@@ -509,4 +509,11 @@ flex-direction: row;
         width: 50px;
         min-height: 12vh;
       }
+    .txt-aplicaciones{
+      font-size: 8px;
+    }
+    .accesorios-opcionales{
+      display: flex;
+      flex-direction: column;
+    }
   }
